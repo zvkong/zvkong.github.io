@@ -25,5 +25,8 @@
   },
   "demo/index.qmd": {
     "index.html": "fee475a2"
+  },
+  " application/index.qmd": {
+    "index.html": "d4b1bb32"
   }
 }
