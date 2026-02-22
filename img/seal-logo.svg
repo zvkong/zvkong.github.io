@@ -1,0 +1,66 @@
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="50" height="50">
+  <defs>
+    <style>
+      .seal-red-stroke { fill: none; stroke: #9E2A2B; stroke-linecap: round; stroke-linejoin: round; }
+      .seal-red-fill { fill: #9E2A2B; }
+      .seal-text { font-family: "Georgia", "Times New Roman", serif; font-weight: bold; }
+    </style>
+  </defs>
+
+  <path class="seal-red-stroke" stroke-width="6" d="M10,10 L90,12 L88,88 L12,90 Z"/>
+  <path class="seal-red-stroke" stroke-width="2" d="M15,15 L85,16 L84,84 L16,85 Z"/>
+
+  <path class="seal-red-stroke" stroke-width="5" d="M 20 55 C 35 55, 40 25, 50 25 C 60 25, 65 55, 80 55"/>
+  
+  <text x="50" y="82" text-anchor="middle" class="seal-text seal-red-fill" font-size="24">K.Z.</text>
+</svg> -->
+<!-- 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="50" height="50">
+  <path d="M 5 90 C 30 85, 40 10, 50 10 C 60 10, 70 85, 95 90" 
+        fill="none" 
+        stroke="#9E2A2B" 
+        stroke-width="7" 
+        stroke-linecap="butt"/>
+  
+  <text x="50" y="85" 
+        font-family="'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif" 
+        font-size="18" 
+        font-weight="900" 
+        fill="#9E2A2B" 
+        text-anchor="middle"
+        letter-spacing="2.0">K.Z</text>
+</svg> -->
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="50" height="50">
+  <path d="M 5 90 C 30 85, 40 10, 50 10 C 60 10, 70 85, 95 90" 
+        fill="none" 
+        stroke="#9E2A2B" 
+        stroke-width="7" 
+        stroke-linecap="butt"/>
+  
+  <text x="50" y="90" 
+        font-family="'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif" 
+        font-size="23" 
+        font-weight="900" 
+        fill="#9E2A2B" 
+        text-anchor="middle"
+        letter-spacing="2">K.Z</text>
+</svg> -->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="50" height="50">
+  <rect x="1" y="1" width="98" height="98" fill="none" stroke="#9E2A2B" stroke-width="2"/>
+  
+  <path d="M 5 90 C 30 85, 40 10, 50 10 C 60 10, 70 85, 95 90" 
+        fill="none" 
+        stroke="#9E2A2B" 
+        stroke-width="7" 
+        stroke-linecap="butt"/>
+  
+  <text x="50" y="90" 
+        font-family="'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif" 
+        font-size="24" 
+        font-weight="900" 
+        fill="#9E2A2B" 
+        text-anchor="middle"
+        letter-spacing="2">K.Z</text>
+</svg>

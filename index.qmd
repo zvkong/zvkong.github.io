@@ -1,0 +1,35 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "" # personal image here
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/zvkong
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/zewei-kong-229b951ab
+    - icon: envelope
+      text: Email
+      href: "mailto:kongz@missouri.edu"
+---
+
+::: {#about-block}
+:::
+
+# Welcome to Zewei's Web
+
+Hello! I am Zewei Kong, a Ph.D. Candidate at the University of Missouri. My work bridges the gap between rigorous statistical methodology and practical, data-driven application development. 
+
+My primary research interests lie in Bayesian statistics and data augmentation techniques. Currently, my research focuses on developing a new joint model designed to handle mixed-type data (Gaussian and binomial). The core motivation behind this work is to provide a unified, efficient, and simple framework where one currently does not exist. 
+
+Beyond theoretical research, I am highly passionate about building tools that make data actionable. I regularly use R and Python in VS Code to develop applications. Some of my recent software projects include **TraffIQ** and **Melonu**. 
+
+Whether it is discussing advanced Bayesian models, app development, or potential postdoctoral research opportunities, please feel free to [contact me](mailto:kongz@missouri.edu). I am always open to connecting with fellow researchers and developers.
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="cv/index.qmd" role="button" style="padding: 15px 30px;">View My CV</a>
+</div>
+---

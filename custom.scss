@@ -1,0 +1,75 @@
+/* ==========================================
+   水墨主题颜色注入 (不改变 Lux 原本布局)
+   ========================================== */
+/*-- scss:rules --*/
+/* 4. 页面部分改为宣纸色 */
+body {
+    background-color: #F5F5F1 !important;
+}
+
+/* 5. 正文字体为墨色 */
+body, p, h1, h2, h3, h4, h5, h6, .about-link {
+    color: #2b2b2b !important; 
+}
+
+/* 1. 改变导航栏颜色为玄青色 */
+/* 3. 在顶部导航栏下方加一条极细的红线 */
+.navbar {
+    background-color: #14171C !important; /* 玄青色 */
+    border-bottom: 1.5px solid #9E2A2B !important; /* 极细朱砂红线 (1px) */
+}
+
+/* 1. 保留导航栏字体颜色 (Lux 默认的亮白色) */
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .bi {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* 6. 鼠标移动到 linkedin 等按钮时, 变为朱砂色 */
+.about-link:hover,
+.about-link:hover i,
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover,
+.navbar .bi:hover,
+a:hover {
+    color: #9E2A2B !important; /* 朱砂色 */
+    transition: color 0.3s ease;
+}
+
+/* ==========================================
+   7. 底部页脚 (Footer) 样式修复
+   ========================================== */
+
+/* 强制页脚背景色与页面一致，并添加顶部横线 */
+.nav-footer {
+    background-color: #F5F5F1 !important; 
+    border-top: none !important; /* 关键修复：移除加在页脚上的错误横线 */
+    color: #4A4A4A !important; 
+}
+
+/* 确保页脚里的链接（如 GitHub Profile）也是墨色，悬停变朱砂色 */
+.nav-footer a {
+    color: #4A4A4A !important;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.nav-footer a:hover {
+    color: #9E2A2B !important;
+    border-bottom: 1px solid #9E2A2B; /* 悬停时除了变红，再加一条优雅的下划线 */
+}
+
+
+/* CV 按钮稍微优化以配合整体色调 */
+// .btn-primary {
+//     background-color: #14171C; 
+//     border-color: #14171C;
+//     // transition: all 0.3s ease;
+// }
+
+// .btn-primary:hover {
+//     background-color: #9E2A2B;
+//     border-color: #9E2A2B;
+// }

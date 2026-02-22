@@ -1,0 +1,149 @@
+/*-- scss:defaults --*/
+$body-bg: #F5F5F1;
+$body-color: #4A4A4A;
+$headings-color: #1A1A1A;
+$link-color: #9E2A2B;
+
+// 专属中国风：古朴米色 (用于替换纯白，在徽墨底色上更温润)
+$chinese-rice-paper: #E8E2D6; 
+
+$font-family-sans-serif: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+$font-family-base: $font-family-serif;
+$headings-font-family: $font-family-sans-serif;
+
+/*-- scss:rules --*/
+
+// ==========================================
+// 1. 顶端标题栏 (完全参照 Lux 布局设计)
+// ==========================================
+.navbar {
+  background-color: #14171C !important; 
+  border-bottom: 2px solid #9E2A2B !important; 
+  // 拉宽上下间距，对齐 Lux 的大气感
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+}
+
+.navbar-brand {
+  margin-right: 3rem; // 拉大 Logo 与菜单的间距
+}
+
+// 导航栏文字：中国风米色、全大写、拉开字间距
+.navbar .navbar-brand, 
+.navbar .nav-link, 
+.navbar .bi {
+  color: $chinese-rice-paper !important; 
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-size: 0.95rem; 
+}
+
+// 增加顶部菜单项之间的距离 (参照 Lux)
+.navbar-nav .nav-item {
+  margin-right: 2rem; 
+}
+
+.navbar .nav-link:hover, .navbar .bi:hover {
+  color: #9E2A2B !important;
+}
+
+// ==========================================
+// 2. 页面主体容器 (参照 Lux 宽度)
+// ==========================================
+.page-columns, .quarto-container, main.content {
+  max-width: 850px !important; // 匹配图1的居中文本宽度
+  margin: auto;
+}
+
+// ==========================================
+// 3. 顶部横线与三个联系按钮 (移至最上方)
+// ==========================================
+.top-social-section {
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.top-divider {
+  border-top: 1px solid #D3D3D3;
+  width: 50%;
+  margin: 0 auto 1.5rem auto; // 居中横线
+}
+
+// 社交小按钮样式 (带灰色边框)
+.social-btn {
+  display: inline-block;
+  border: 1px solid #CCC;
+  color: #666;
+  padding: 6px 16px;
+  margin: 0 6px;
+  border-radius: 4px;
+  font-family: $font-family-sans-serif;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.social-btn:hover {
+  border-color: #9E2A2B;
+  color: #9E2A2B;
+}
+
+// ==========================================
+// 4. 标题与正文样式
+// ==========================================
+.welcome-title {
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.2rem;
+  color: #1A1A1A;
+  margin-bottom: 2rem;
+}
+
+main.content p {
+  font-size: 1.15rem; // 字体大小与 Lux 保持一致
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+// ==========================================
+// 5. 底部实心黑块按钮
+// ==========================================
+.btn-lux-black {
+  background-color: #1A1A1A !important;
+  color: #F5F5F1 !important;
+  border: none !important;
+  border-radius: 0 !important; 
+  padding: 15px 35px !important;
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-lux-black:hover {
+  background-color: #9E2A2B !important; 
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+// 水墨动画
+@keyframes inkWash {
+  0% { opacity: 0; filter: blur(5px); transform: translateY(15px); }
+  100% { opacity: 1; filter: blur(0); transform: translateY(0); }
+}
+#quarto-content { animation: inkWash 1.2s ease-out forwards; }

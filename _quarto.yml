@@ -1,0 +1,63 @@
+website:
+  title: "Zewei Kong"
+  description: "Ph.D. Candidate of Statistics"
+  image: img/my_image.jpg
+  
+  navbar:
+    pinned: true
+    logo: img/logo.svg  # 修改为你的 svg logo 文件
+
+    left:
+      - text: "Projects"
+        href: projects/index.qmd # 修复了这里的链接结构
+      - text: "Research"
+        href: research/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+      - text: "Demo"
+        href: demo/index.qmd
+    
+    right:
+      - icon: github
+        href: https://github.com/zvkong
+      - icon: linkedin
+        href: https://www.linkedin.com/in/zewei-kong-229b951ab
+      - icon: envelope
+        aria-label: email
+        href: "mailto:kongz@missouri.edu" 
+        
+  search: 
+    location: navbar
+    type: textbox
+    
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; 2026 Zewei Kong</span>
+    center: |
+      <span class="faux-block">Powered by <a href="https://quarto.org/">Quarto</a></span>
+    right: |
+      <span class="faux-block"><a href="https://github.com/zvkong">My GitHub Profile</a></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22225
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    theme:
+      light: 
+        - lux
+        - custom.scss # 确保样式在 light 模式下也生效
+      dark: 
+        - slate
+    fontsize: 1.1em
+    linestretch: 1.6

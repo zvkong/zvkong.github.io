@@ -1,0 +1,16 @@
+---
+title: "Research"
+description: "My academic research and working papers"
+---
+
+## Working Papers
+
+### Scalable Joint Modeling of Dependent Multi-type Survey Data for Small Area Estimation
+**Zewei Kong**, P. A. Parker, & S. H. Holan *(in preparation, 2024)*
+
+There is currently no unified, efficient, and simple framework to handle mixed-type data (Gaussian and binomial). This methodological gap is the primary motivation for our work. Instead of building upon the multivariate Fay-Herriot framework, we propose a new joint model that utilizes a similar strategy of setting the variance as known. By leveraging the Gibbs sampler, this approach simplifies computations and enhances overall estimation accuracy for dependent Gaussian and binomial outcomes. *(Note: While programs like SAIPE demonstrate the importance of tracking income and poverty, the core driver of this study is advancing the statistical modeling framework itself.)*
+
+### A Bayesian Approach to Unit-level Dependent Multi-type Survey Data
+**Zewei Kong**, J. Bradley, P. A. Parker, & S. H. Holan *(in preparation, 2025)*
+
+Focused on unit-level dependent responses, we proposed a new model employing the Gibbs sampler to enhance performance and computational efficiency. The approach implements pseudo-likelihood techniques within a Bayesian framework, demonstrating improved performance on large-scale datasets such as the ACS Public Use Microdata Sample for California, analyzing over 390,000 unit records.
