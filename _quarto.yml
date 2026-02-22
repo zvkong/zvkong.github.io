@@ -8,10 +8,10 @@ website:
     logo: img/logo.svg  # 修改为你的 svg logo 文件
 
     left:
-      - text: "Projects"
-        href: projects/index.qmd # 修复了这里的链接结构
       - text: "Research"
         href: research/index.qmd
+      - text: "Application"
+        href: projects/index.qmd # 修复了这里的链接结构
       - text: "CV"
         href: cv/index.qmd
       - text: "Demo"

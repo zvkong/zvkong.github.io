@@ -1,28 +1,42 @@
 ---
-title: Projects
+title: "Demo & Applications"
+description: "Interactive projects and software applications"
 ---
 
-## The Languages of Middle-earth
+Welcome to my project showcase. Here are some of the software applications and interactive tools I am currently developing. My work bridges the gap between rigorous statistical methodology and practical, data-driven application development.
 
-<img src="project_1_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2210.07278', 'blank');"/>
+<hr style="border: 0; border-top: 1px solid rgba(0,0,0,0.1); margin-top: 2rem; margin-bottom: 3rem;">
 
-<a href="https://arxiv.org/abs/2210.07278" target="_blank">arXiv Preprint</a> | <a href="https://github.com/marvinschmitt/MetaUncertaintyPaper" target="_blank">Code</a><br>
+::: {.grid}
 
-Over the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion.
+::: {.g-col-12 .g-col-md-6}
+### TraffIQ
+An innovative application designed to optimize and manage traffic-related flows. 
 
-----
+*(Tip: You can embed the English-language speech introducing the app, or insert a demonstration video/screenshots here.)*
 
-## The History of the War of the Ring
+<br>
+<a href="#" style="color: #9E2A2B; font-weight: bold; text-decoration: none;">Explore TraffIQ &rarr;</a>
+:::
 
-<img src="project_2_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2112.08866', 'blank');"/>
+::: {.g-col-12 .g-col-md-6}
+### Melonu
+A dedicated application focusing on efficient data handling and visualization.
 
-<a href="https://arxiv.org/abs/2112.08866" target="_blank">arXiv Preprint</a> | <a href="https://github.com/marvinschmitt/ModelMisspecificationBF" target="_blank">Code</a><br>
+*(Tip: Add specific details about the app's functionality, your tech stack, and links to the repository here.)*
 
-I am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth's history and provide valuable insights into the motivations and actions of the various players involved.
+<br>
+<a href="#" style="color: #9E2A2B; font-weight: bold; text-decoration: none;">Explore Melonu &rarr;</a>
+:::
 
+:::
 
-```{=html}
-<div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
+<hr style="border: 0; border-top: 1px solid rgba(0,0,0,0.1); margin-top: 3rem; margin-bottom: 2rem;">
+
+**Get in touch** if you are interested in collaborating or trying out these applications!
+
+<div style="text-align: center; margin-top: 40px; margin-bottom: 40px;">
+  <a class="btn-lux-black" href="https://github.com/zvkong" target="_blank" style="background-color: #1A1A1A; color: #F5F5F1; padding: 12px 30px; text-decoration: none; font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 2px; font-weight: 600; font-size: 0.85rem; transition: all 0.3s ease;">
+    <i class="bi bi-github"></i>&ensp;VIEW ALL ON GITHUB
+  </a>
 </div>
-```
