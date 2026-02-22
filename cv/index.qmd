@@ -4,7 +4,7 @@ title: CURRICULUM VITAE
 excerpt: My current CV
 execute:
   freeze: false  # <--- 关键修改：关闭缓存冻结，强制重新渲染！
-engine: knitr 
+engine: markdown
 resources:
   - "cv.pdf"
 cv:
