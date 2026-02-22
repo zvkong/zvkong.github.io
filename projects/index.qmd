@@ -35,8 +35,8 @@ A dedicated application focusing on efficient data handling and visualization.
 
 **Get in touch** if you are interested in collaborating or trying out these applications!
 
-<div style="text-align: center; margin-top: 40px; margin-bottom: 40px;">
-  <a class="btn-lux-black" href="https://github.com/zvkong" target="_blank" style="background-color: #1A1A1A; color: #F5F5F1; padding: 12px 30px; text-decoration: none; font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 2px; font-weight: 600; font-size: 0.85rem; transition: all 0.3s ease;">
-    <i class="bi bi-github"></i>&ensp;VIEW ALL ON GITHUB
+<div style="margin: 30px; text-align: center;">
+  <a class="btn btn-primary" href="https://github.com/zvkong" role="button" target="_blank" style="padding: 15px 30px;">
+    <i class="bi bi-github"></i>&ensp;View All on GitHub
   </a>
 </div>

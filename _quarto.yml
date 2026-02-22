@@ -54,10 +54,7 @@ execute:
 format:
   html:
     theme:
-      light: 
-        - lux
-        - custom.scss # 确保样式在 light 模式下也生效
-      dark: 
-        - slate
+      - lux
+      - custom.scss # 确保样式在 light 模式下也生效
     fontsize: 1.1em
     linestretch: 1.6
