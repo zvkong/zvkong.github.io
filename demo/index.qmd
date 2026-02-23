@@ -6,14 +6,11 @@ description: "Interactive projects and software applications"
 Welcome to my project showcase. Here are some of the software applications and interactive tools I am currently developing:
 
 ### TraffIQ
-An innovative application designed to optimize and manage traffic-related flows. 
 
-*(Tip: You can embed the English-language speech introducing the app, or insert a demonstration video/screenshots here.)*
-
-### Melonu
+<!-- ### Melonu
 A dedicated application focusing on... 
 
-*(Tip: Add specific details about the app's functionality, your tech stack, and links to the repository here.)*
+*(Tip: Add specific details about the app's functionality, your tech stack, and links to the repository here.)* -->
 
 ---
 

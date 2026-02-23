@@ -11,27 +11,10 @@ Welcome to my project showcase. Here are some of the software applications and i
 
 ::: {.g-col-12 .g-col-md-6}
 ### TraffIQ
-An innovative application designed to optimize and manage traffic-related flows. 
-
-*(Tip: You can embed the English-language speech introducing the app, or insert a demonstration video/screenshots here.)*
+TraffIQ is an interactive RShiny map application designed for real-time traffic hotspot visualization and route risk assessment. Under the hood, it utilizes spatial point process models to analyze historical accident data and estimate regional risk intensity. Innovatively, TraffIQ integrates an "AI brain" to translate these complex spatial statistical outputs into intuitive, natural-language safety insights, achieving a seamless fusion of advanced statistics and artificial intelligence through a user-friendly UI/UX design.
 
 <br>
 <a href="#" style="color: #9E2A2B; font-weight: bold; text-decoration: none;">Explore TraffIQ &rarr;</a>
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### Melonu
-A dedicated application focusing on efficient data handling and visualization.
-
-*(Tip: Add specific details about the app's functionality, your tech stack, and links to the repository here.)*
-
-<br>
-<a href="#" style="color: #9E2A2B; font-weight: bold; text-decoration: none;">Explore Melonu &rarr;</a>
-:::
-
-:::
-
-<hr style="border: 0; border-top: 1px solid rgba(0,0,0,0.1); margin-top: 3rem; margin-bottom: 2rem;">
 
 **Get in touch** if you are interested in collaborating or trying out these applications!
 

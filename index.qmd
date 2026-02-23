@@ -18,7 +18,7 @@ about:
 ::: {#about-block}
 :::
 
-# Welcome to Zewei's Web
+# Welcome to My Website
 Welcome to my personal website! I am Zewei Kong, a Ph.D. candidate at the University of Missouri.
 
 As a statistical researcher, I am dedicated to exploring Bayesian methodology and its applications in complex data structures. My doctoral research focuses on multi-type models for small area estimation within the context of survey data. Specifically, I am currently proposed and validated a novel Bayesian hierarchical framework for the joint modeling of Gaussian and binomial data.
