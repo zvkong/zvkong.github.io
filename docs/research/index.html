@@ -168,13 +168,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
 <section id="scalable-joint-modeling-of-dependent-multi-type-survey-data-for-small-area-estimation" class="level3">
 <h3 class="anchored" data-anchor-id="scalable-joint-modeling-of-dependent-multi-type-survey-data-for-small-area-estimation">Scalable Joint Modeling of Dependent Multi-type Survey Data for Small Area Estimation</h3>
-<p><strong>Zewei Kong</strong>, P. A. Parker, &amp; S. H. Holan <em>(in preparation, 2024)</em></p>
-<p>There is currently no unified, efficient, and simple framework to handle mixed-type data (Gaussian and binomial). This methodological gap is the primary motivation for our work. Instead of building upon the multivariate Fay-Herriot framework, we propose a new joint model that utilizes a similar strategy of setting the variance as known. By leveraging the Gibbs sampler, this approach simplifies computations and enhances overall estimation accuracy for dependent Gaussian and binomial outcomes. <em>(Note: While programs like SAIPE demonstrate the importance of tracking income and poverty, the core driver of this study is advancing the statistical modeling framework itself.)</em></p>
+<p><strong>Zewei Kong</strong>, Kong. Z, P. A. Parker, &amp; S. H. Holan <em>(in preparation)</em></p>
+<p>This paper introduces a Bayesian area-level small-area estimation (SAE) framework that jointly models binomial and Gaussian survey data using shared spatial random effects. To maintain computational efficiency for high-dimensional spatial data, we integrate Polya-Gamma data augmentation with spatial basis functions for scalable Gibbs sampling. Applied to the American Community Survey (ACS), our multi-type model borrows strength across variables to produce highly precise joint estimates of median income and poverty rates.</p>
 </section>
 <section id="a-bayesian-approach-to-unit-level-dependent-multi-type-survey-data" class="level3">
 <h3 class="anchored" data-anchor-id="a-bayesian-approach-to-unit-level-dependent-multi-type-survey-data">A Bayesian Approach to Unit-level Dependent Multi-type Survey Data</h3>
-<p><strong>Zewei Kong</strong>, J. Bradley, P. A. Parker, &amp; S. H. Holan <em>(in preparation, 2025)</em></p>
-<p>Focused on unit-level dependent responses, we proposed a new model employing the Gibbs sampler to enhance performance and computational efficiency. The approach implements pseudo-likelihood techniques within a Bayesian framework, demonstrating improved performance on large-scale datasets such as the ACS Public Use Microdata Sample for California, analyzing over 390,000 unit records.</p>
+<p><strong>Zewei Kong</strong>, Kong. Z, J. Bradley, P. A. Parker, &amp; S. H. Holan <em>(in preparation)</em></p>
+<p>This paper proposes a Bayesian hierarchical framework focused on jointly modeling unit-level dependent responses (Gaussian and binomial data). To enhance both performance and computational efficiency, the approach implements pseudo-likelihood techniques within a Bayesian framework to address informative sampling, alongside Polya-Gamma data augmentation for fully conjugate Gibbs updates. Demonstrating improved performance on large-scale datasets, we applied the model to the ACS PUMS for Illinois, analyzing over 98,000 unit records. Results show that our joint model significantly reduces mean squared error (MSE) and improves small-area estimates without increasing computation time compared to univariate models.</p>
 
 
 </section>

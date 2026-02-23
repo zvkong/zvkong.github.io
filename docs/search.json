@@ -1,16 +1,51 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Zewei’s Web",
-    "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to Zewei’s Web\nWelcome to my personal website! I am Zewei Kong, a Ph.D. candidate at the University of Missouri.\nAs a statistical researcher, I am dedicated to exploring Bayesian methodology and its applications in complex data structures. My core doctoral research focuses on multi-type models for small area estimation within the context of survey data. Specifically, I am currently proposing and validating a novel Bayesian hierarchical framework for the joint modeling of Gaussian and binomial data.\nBeyond a solid theoretical foundation in Bayesian hierarchical modeling and small area estimation, I possess strong skills in statistical programming, data processing, and visualization. Proficient in R and Python, I can independently manage the entire pipeline from model construction to final result presentation.\nFurthermore, I have a strong interest in Machine Learning and exploring the intersection of Artificial Intelligence with traditional statistical methods. For instance, I developed TraffIQ, an interactive map-based web application built with RShiny. This project successfully integrates complex statistical analyses with an AI backend, delivering data-driven insights to users through an intuitive and user-friendly UI/UX design.\nIf you are interested in Bayesian modeling, Machine Learning, data analytics, or my specific research areas, please feel free to contact me. I am always open to connecting with fellow researchers and developers.\n\nView My CV"
-  },
-  {
     "objectID": "cv/index.html",
     "href": "cv/index.html",
     "title": "Curriculum vitae",
     "section": "",
     "text": "Download Current CV"
+  },
+  {
+    "objectID": "photography/index.html",
+    "href": "photography/index.html",
+    "title": "Photography",
+    "section": "",
+    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Zewei Kong, Kong. Z, P. A. Parker, & S. H. Holan (in preparation)\nThis paper introduces a Bayesian area-level small-area estimation (SAE) framework that jointly models binomial and Gaussian survey data using shared spatial random effects. To maintain computational efficiency for high-dimensional spatial data, we integrate Polya-Gamma data augmentation with spatial basis functions for scalable Gibbs sampling. Applied to the American Community Survey (ACS), our multi-type model borrows strength across variables to produce highly precise joint estimates of median income and poverty rates.\n\n\n\nZewei Kong, Kong. Z, J. Bradley, P. A. Parker, & S. H. Holan (in preparation)\nThis paper proposes a Bayesian hierarchical framework focused on jointly modeling unit-level dependent responses (Gaussian and binomial data). To enhance both performance and computational efficiency, the approach implements pseudo-likelihood techniques within a Bayesian framework to address informative sampling, alongside Polya-Gamma data augmentation for fully conjugate Gibbs updates. Demonstrating improved performance on large-scale datasets, we applied the model to the ACS PUMS for Illinois, analyzing over 98,000 unit records. Results show that our joint model significantly reduces mean squared error (MSE) and improves small-area estimates without increasing computation time compared to univariate models."
+  },
+  {
+    "objectID": "research/index.html#working-papers",
+    "href": "research/index.html#working-papers",
+    "title": "Research",
+    "section": "",
+    "text": "Zewei Kong, Kong. Z, P. A. Parker, & S. H. Holan (in preparation)\nThis paper introduces a Bayesian area-level small-area estimation (SAE) framework that jointly models binomial and Gaussian survey data using shared spatial random effects. To maintain computational efficiency for high-dimensional spatial data, we integrate Polya-Gamma data augmentation with spatial basis functions for scalable Gibbs sampling. Applied to the American Community Survey (ACS), our multi-type model borrows strength across variables to produce highly precise joint estimates of median income and poverty rates.\n\n\n\nZewei Kong, Kong. Z, J. Bradley, P. A. Parker, & S. H. Holan (in preparation)\nThis paper proposes a Bayesian hierarchical framework focused on jointly modeling unit-level dependent responses (Gaussian and binomial data). To enhance both performance and computational efficiency, the approach implements pseudo-likelihood techniques within a Bayesian framework to address informative sampling, alongside Polya-Gamma data augmentation for fully conjugate Gibbs updates. Demonstrating improved performance on large-scale datasets, we applied the model to the ACS PUMS for Illinois, analyzing over 98,000 unit records. Results show that our joint model significantly reduces mean squared error (MSE) and improves small-area estimates without increasing computation time compared to univariate models."
+  },
+  {
+    "objectID": "demo/index.html",
+    "href": "demo/index.html",
+    "title": "Demo & Applications",
+    "section": "",
+    "text": "Welcome to my project showcase. Here are some of the software applications and interactive tools I am currently developing:\n\nTraffIQ\n\n\nGet in touch if you are interested in collaborating or trying out these applications!"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Demo & Applications",
+    "section": "",
+    "text": "Welcome to my project showcase. Here are some of the software applications and interactive tools I am currently developing. My work bridges the gap between rigorous statistical methodology and practical, data-driven application development.\n\n\n\nTraffIQ\nTraffIQ is an interactive RShiny map application designed for real-time traffic hotspot visualization and route risk assessment. Under the hood, it utilizes spatial point process models to analyze historical accident data and estimate regional risk intensity. Innovatively, TraffIQ integrates an “AI brain” to translate these complex spatial statistical outputs into intuitive, natural-language safety insights, achieving a seamless fusion of advanced statistics and artificial intelligence through a user-friendly UI/UX design.\n Explore TraffIQ →\nGet in touch if you are interested in collaborating or trying out these applications!\n\n  View All on GitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Website",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to My Website\nI am Zewei Kong, a Ph.D. candidate at the University of Missouri specializing in Bayesian methodology. My current research involves developing novel Bayesian hierarchical frameworks to jointly model multi-type survey data for small area estimation. Alongside a strong theoretical foundation, I am highly proficient in R and Python for full-stack data processing and visualization.\nI am also interested in the intersection of traditional statistics, Machine Learning, and AI. A recent highlight is TraffIQ, an RShiny web app I developed that translates complex spatial statistical outputs into intuitive safety insights via an AI backend and a user-friendly UI/UX design built from scratch.\nInterested in Bayesian modeling, Machine Learning, or data analytics? Please feel free to contact me.\n\nView My CV"
   }
 ]
