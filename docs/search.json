@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Zewei’s Web",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to Zewei’s Web\nWelcome to my personal website! I am Zewei Kong, a Ph.D. candidate at the University of Missouri.\nAs a statistical researcher, I am dedicated to exploring Bayesian methodology and its applications in complex data structures. My core doctoral research focuses on multi-type models for small area estimation within the context of survey data. Specifically, I am currently proposing and validating a novel Bayesian hierarchical framework for the joint modeling of Gaussian and binomial data.\nBeyond a solid theoretical foundation in Bayesian hierarchical modeling and small area estimation, I possess strong skills in statistical programming, data processing, and visualization. Proficient in R and Python, I can independently manage the entire pipeline from model construction to final result presentation.\nFurthermore, I have a strong interest in Machine Learning and exploring the intersection of Artificial Intelligence with traditional statistical methods. For instance, I developed TraffIQ, an interactive map-based web application built with RShiny. This project successfully integrates complex statistical analyses with an AI backend, delivering data-driven insights to users through an intuitive and user-friendly UI/UX design.\nIf you are interested in Bayesian modeling, Machine Learning, data analytics, or my specific research areas, please feel free to contact me. I am always open to connecting with fellow researchers and developers.\n\nView My CV"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download Current CV"
+  }
+]
