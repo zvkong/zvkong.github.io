@@ -6,9 +6,9 @@ execute:
   freeze: false  # never re-render during project render
 engine: knitr 
 resources:
-  - "cv.pdf"
+  - "CV_for_Zewei.pdf"
 cv:
-  pdf: "cv.pdf"
+  pdf: "CV_for_Zewei.pdf"
 ---
 
 ```{css echo=FALSE}
@@ -32,11 +32,11 @@ cv:
 
 ```{=html}
 <div class="embed-container">
-  <iframe src="cv.pdf#toolbar=0" style="border: none; width: 100%;"></iframe>
+  <iframe src="CV_for_Zewei.pdf#toolbar=0" style="border: none; width: 100%;"></iframe>
 </div>
 
 <div style="margin: 30px; text-align: center; margin-top: 50px; margin-bottom: 60px;">
-  <a class="btn btn-primary" href="cv.pdf" role="button" target="_blank" style="padding: 15px 30px;">
+  <a class="btn btn-primary" href="CV_for_Zewei.pdf" role="button" target="_blank" style="padding: 15px 30px;">
     <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download Current CV
   </a>
 </div> 
