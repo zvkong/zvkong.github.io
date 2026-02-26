@@ -4,13 +4,15 @@ description: "My academic research and working papers"
 ---
 
 ## Working Papers
-
+---
 ### Scalable Joint Modeling of Dependent Multi-type Survey Data for Small Area Estimation
 **Zewei Kong**, Kong. Z, P. A. Parker, & S. H. Holan *(in preparation)*
 
 This paper introduces a Bayesian area-level small-area estimation (SAE) framework that jointly models binomial and Gaussian survey data using shared spatial random effects. To maintain computational efficiency for high-dimensional spatial data, we integrate Polya-Gamma data augmentation with spatial basis functions for scalable Gibbs sampling. Applied to the American Community Survey (ACS), our multi-type model borrows strength across variables to produce highly precise joint estimates of median income and poverty rates.
 
+---
 ### A Bayesian Approach to Unit-level Dependent Multi-type Survey Data
 **Zewei Kong**, Kong. Z, J. Bradley, P. A. Parker, & S. H. Holan *(in preparation)*
 
 Focused on unit-level dependent responses, we proposed a new model employing the Gibbs sampler to enhance performance and computational efficiency. The approach implements pseudo-likelihood techniques within a Bayesian framework, demonstrating improved performance on large-scale datasets such as the ACS Public Use Microdata Sample for Illinois, analyzing over 98,000 unit records.
+---

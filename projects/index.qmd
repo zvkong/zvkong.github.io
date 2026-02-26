@@ -1,15 +1,9 @@
 ---
-title: "Demo & Applications"
-description: "Interactive projects and software applications"
+title: "Applications"
+description: "Here are some of the applications and interactive tools I am currently developing."
 ---
 
-Welcome to my project showcase. Here are some of the software applications and interactive tools I am currently developing. My work bridges the gap between rigorous statistical methodology and practical, data-driven application development.
 
-<hr style="border: 0; border-top: 1px solid rgba(0,0,0,0.1); margin-top: 2rem; margin-bottom: 3rem;">
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
 ### TraffIQ
 TraffIQ is an interactive RShiny map application designed for real-time traffic hotspot visualization and route risk assessment. Under the hood, it utilizes spatial point process models to analyze historical accident data and estimate regional risk intensity. Innovatively, TraffIQ integrates an "AI brain" to translate these complex spatial statistical outputs into intuitive, natural-language safety insights, achieving a seamless fusion of advanced statistics and artificial intelligence through a user-friendly UI/UX design.
 

@@ -30,16 +30,16 @@
   {
     "objectID": "demo/index.html",
     "href": "demo/index.html",
-    "title": "Demo & Applications",
+    "title": "Demo",
     "section": "",
-    "text": "Welcome to my project showcase. Here are some of the software applications and interactive tools I am currently developing:\n\nTraffIQ\n\n\nGet in touch if you are interested in collaborating or trying out these applications!"
+    "text": "TraffIQ\n\nGet in touch if you are interested in collaborating or trying out these applications!"
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
-    "title": "Demo & Applications",
+    "title": "Applications",
     "section": "",
-    "text": "Welcome to my project showcase. Here are some of the software applications and interactive tools I am currently developing. My work bridges the gap between rigorous statistical methodology and practical, data-driven application development.\n\n\n\nTraffIQ\nTraffIQ is an interactive RShiny map application designed for real-time traffic hotspot visualization and route risk assessment. Under the hood, it utilizes spatial point process models to analyze historical accident data and estimate regional risk intensity. Innovatively, TraffIQ integrates an “AI brain” to translate these complex spatial statistical outputs into intuitive, natural-language safety insights, achieving a seamless fusion of advanced statistics and artificial intelligence through a user-friendly UI/UX design.\n Explore TraffIQ →\nGet in touch if you are interested in collaborating or trying out these applications!\n\n  View All on GitHub"
+    "text": "TraffIQ\nTraffIQ is an interactive RShiny map application designed for real-time traffic hotspot visualization and route risk assessment. Under the hood, it utilizes spatial point process models to analyze historical accident data and estimate regional risk intensity. Innovatively, TraffIQ integrates an “AI brain” to translate these complex spatial statistical outputs into intuitive, natural-language safety insights, achieving a seamless fusion of advanced statistics and artificial intelligence through a user-friendly UI/UX design.\n Explore TraffIQ →\nGet in touch if you are interested in collaborating or trying out these applications!\n\n  View All on GitHub"
   },
   {
     "objectID": "index.html",

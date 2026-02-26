@@ -1,16 +1,10 @@
 ---
-title: "Demo & Applications"
-description: "Interactive projects and software applications"
+title: "Demo"
+description: "Here are some demos"
 ---
-
-Welcome to my project showcase. Here are some of the software applications and interactive tools I am currently developing:
 
 ### TraffIQ
 
-<!-- ### Melonu
-A dedicated application focusing on... 
-
-*(Tip: Add specific details about the app's functionality, your tech stack, and links to the repository here.)* -->
 
 ---
 
